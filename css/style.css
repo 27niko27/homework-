@@ -2,5 +2,27 @@ body{
 	background-image: url(../image/background.jpg);
 	background-color: red;
 	background-repeat: no repeat;
-	background-size: cover;
+	background-size: cover; 
+	background-attachment: fixed;
+}
+.man1{
+	width: 200px;
+	height: 600px;
+	margin-left: 400px;
+	margin-top: 600px;
+	animation: dance 10s infinite;
+
+}
+.man2{
+      width:200px ;
+      height: 600px;
+     
+}
+.man3{
+	 width:200px ;
+      height: 600px;
+}
+@keyframes dance{
+      from {top:600px; }
+      to {top:550; }
 }
