@@ -6,23 +6,35 @@ body{
 	background-attachment: fixed;
 }
 .man1{
+	position: relative;
 	width: 200px;
 	height: 600px;
-	margin-left: 400px;
-	margin-top: 600px;
-	animation: dance 10s infinite;
+	
+	animation: dance 5s alternate infinite ;
 
 }
 .man2{
+	
+	position: relative;
       width:200px ;
       height: 600px;
-     
+    
+     animation: dance2 6s alternate infinite;
 }
 .man3{
+	position: relative;
 	 width:200px ;
       height: 600px;
+      animation: dance2 6s alternate infinite;
+   
 }
 @keyframes dance{
-      from {top:600px; }
-      to {top:550; }
+      from {top:700px; left:300px; }
+      to {top: 200px; left: 500px;}
 }
+@keyframes dance2{
+         from{top: 400px; left: 300px;}
+         
+      
+        to {top: 200px; left: 400px}
+	   }
